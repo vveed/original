@@ -1,0 +1,17 @@
+<!--Captcha-->
+<screen name="Captcha" position="0,0" size="1280,720" flags="wfNoBorder">
+	<widget source="session.VideoPicture" render="Pig" position="937,15" size="320,180" zPosition="3" backgroundColor="transparent" />
+	<widget source="hidePig" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/video_bg_logo.png" position="937,15" size="320,180" zPosition="4">
+		<convert type="ConditionalShowHide" />
+	</widget>
+	<ePixmap position="928,7" size="342,201" zPosition="-1" pixmap="~/tec/images/video_bg.png" />
+	<widget name="header" position="10,100" size="900,60" foregroundColor="#00ffffff" backgroundColor="#26181d20" transparent="1" font="mediaportal;26" valign="center" halign="center" />
+	<widget name="text" position="115,210" size="680,50" zPosition="1" font="mediaportal;25" noWrap="1" halign="center" valign="center" backgroundColor="#00000000" />
+	<eLabel position="114,209" size="682,52" backgroundColor="#00aaaaaa" zPosition="0" name="textback" foregroundColor="#00aaaaaa" />
+	<widget name="list" position="183,308" size="540,225" selectionDisabled="1" transparent="1" zPosition="2" />
+	<eLabel position="183,308" size="540,225" backgroundColor="#00000000" zPosition="1" name="listback" foregroundColor="#00000000" />
+	<eLabel position="183,308" size="540,225" backgroundColor="#00aaaaaa" zPosition="0" name="listback" foregroundColor="#00aaaaaa" />
+	<widget name="coverArt" position="970,308" size="256,256" transparent="1" pixmap="~/tec/images/no_coverArt.png" alphatest="blend" />
+	<eLabel text="Captcha" position="970,259" size="256,50" font="mediaportal;25" backgroundColor="#00000000" transparent="1" halign="center" />
+	<ePixmap position="0,0" size="1280,720" zPosition="-2" pixmap="~/tec/images/captcha.png" />
+</screen>

@@ -1,0 +1,38 @@
+<!-- showSongstoAll -->
+<screen name="Songs.to" position="0,0" size="1280,720" flags="wfNoBorder">
+	<widget source="session.VideoPicture" render="Pig" position="937,15" size="320,180" zPosition="3" backgroundColor="transparent" />
+	<widget source="hidePig" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/video_bg_logo.png" position="937,15" size="320,180" zPosition="4">
+		<convert type="ConditionalShowHide" />
+	</widget>
+	<ePixmap position="928,7" size="342,201" zPosition="-1" pixmap="~/tec/images/video_bg.png" />
+	<!-- select screen -->
+	<widget name="title" position="10,100" size="900,60" backgroundColor="#26181d20" transparent="1" zPosition="0" font="mediaportal;30" valign="center" halign="center" />
+	<widget name="streamlist" position="12,220" size="898,400" backgroundColor="#26181d20" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/tec/images/sel.png" foregroundColorSelected="#ffffff" foregroundColor="#00999999" zPosition="0" />
+	<widget name="songtitle" position="934,316" size="320,60" foregroundColor="#00ffffff" backgroundColor="#26181d20" transparent="1" font="mediaportal; 22" valign="center" halign="center" />
+	<widget source="session.CurrentService" render="Label" position="1050,594" size="90,25" font="mediaportal; 20" foregroundColor="#00ffffff" backgroundColor="#26181d20" halign="center" transparent="1">
+		<convert type="ServicePosition">Length</convert>
+	</widget>
+	<widget name="coverArt" pixmap="~/tec/images/no_coverArt_150.png" position="934,404" size="320,150" transparent="1" alphatest="blend" />
+	<widget name="artist" position="934,252" size="320,60" backgroundColor="#26181d20" transparent="1" font="mediaportal; 22" valign="center" foregroundColor="#00ffffff" halign="center" />
+	<eLabel text="Album" position="85,171" size="100,25" backgroundColor="#26181d20" transparent="1" foregroundColor="#00ffffff" font="mediaportal;20" valign="top" />
+	<widget name="album" position="185,171" size="580,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="top" foregroundColor="#00ffffff" />
+	<widget source="session.CurrentService" render="Progress" position="934,582" size="320,10" backgroundColor="#26181d20" borderWidth="1" borderColor="#00999999" transparent="1">
+		<convert type="ServicePosition">Position</convert>
+	</widget>
+	<widget source="session.CurrentService" render="Label" position="934,595" size="90,25" backgroundColor="#26181d20" transparent="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00ffffff">
+		<convert type="ServicePosition">Position</convert>
+	</widget>
+	<widget source="session.CurrentService" render="Label" position="1166,595" size="90,25" backgroundColor="#26181d20" transparent="1" font="mediaportal; 20" valign="center" halign="right" foregroundColor="#00ffffff">
+		<convert type="ServicePosition">Remaining</convert>
+	</widget>
+	<widget name="playmode" position="636,660" size="130,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;20" valign="center" halign="center" />
+	<widget name="F1" position="55,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<widget name="F2" position="295,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<widget name="F3" position="535,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<widget name="F4" position="775,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" /> 
+	<ePixmap pixmap="~/tec/images/buttonglas.png" position="55,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/tec/images/buttonglas.png" position="295,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/tec/images/buttonglas.png" position="535,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/tec/images/buttonglas.png" position="775,660" size="90,36" alphatest="blend" zPosition="2" />	
+	<ePixmap position="0,0" size="1280,720" zPosition="-2" pixmap="~/tec/images/defaultGenreScreen.png" />
+</screen>

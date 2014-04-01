@@ -1,0 +1,25 @@
+<!-- haupt_Screen -->
+<screen name="MediaPortal" position="0,0" size="1280,720" flags="wfNoBorder">
+	<widget source="session.VideoPicture" render="Pig" position="937,15" size="320,180" zPosition="0" backgroundColor="transparent" />
+	<widget source="hidePig" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/video_bg_logo.png" position="937,15" size="320,180" zPosition="4">
+		<convert type="ConditionalShowHide" />
+	</widget>
+	<ePixmap position="928,7" size="342,201" zPosition="5" pixmap="~/liquidblue/images/video_bg.png" backgroundColor="transparent" alphatest="blend" /> 
+	<eLabel text="Proxy" position="1180,454" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text="PVR " position="1180,504" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text="Menu" position="1180,554" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text=" Help " position="1180,604" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text=" Exit " position="1180,654" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<!-- select screen -->
+	<widget name="Mediatheken" position="10,215" size="287,30" backgroundColor="#26181d20" zPosition="5" font="mediaportal; 26" halign="left" transparent="1" foregroundColor="#00ffffff" />
+	<widget name="mediatheken" position="10,255" size="287,440" backgroundColor="#26181d20" transparent="1" selectionPixmap="~/liquidblue/images/sel.png" foregroundColorSelected="#ffffff" foregroundColor="#00555555" />
+	<widget name="Grauzone" position="297,215" size="287,30" backgroundColor="#26181d20" zPosition="5" font="mediaportal; 26" halign="left" transparent="1" foregroundColor="#00ffffff" />
+	<widget name="grauzone" position="297,255" size="287,440" backgroundColor="#26181d20" transparent="1" selectionPixmap="~/liquidblue/images/sel.png" foregroundColorSelected="#ffffff" foregroundColor="#00555555" />
+	<widget name="Funsport" position="584,215" size="287,30" backgroundColor="#26181d20" zPosition="5" font="mediaportal; 26" halign="left" transparent="1" foregroundColor="#00ffffff" />
+	<widget name="funsport" position="584,255" size="287,440" backgroundColor="#26181d20" transparent="1" selectionPixmap="~/liquidblue/images/sel.png" foregroundColorSelected="#ffffff" foregroundColor="#00555555" />
+	<widget name="Porn" position="871,215" size="287,30" backgroundColor="#26181d20" zPosition="5" font="mediaportal; 26" halign="left" transparent="1" foregroundColor="#00ffffff" />
+	<widget name="porn" position="871,255" size="287,440" backgroundColor="#26181d20" transparent="1" selectionPixmap="~/liquidblue/images/sel.png" foregroundColorSelected="#ffffff" foregroundColor="#00555555" />
+	<widget name="name" position="10,104" size="900,50" foregroundColor="#00ffffff" backgroundColor="#26181d20" transparent="1" font="mediaportal;32" valign="center" halign="center" />
+	<ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="~/liquidblue/images/haupt_Screen.png" />
+	<ePixmap position="14,31" size="508,48" zPosition="0" pixmap="~/liquidblue/images/mplogo.png" transparent="1" alphatest="blend" />
+</screen>

@@ -1,0 +1,26 @@
+<!-- help -->
+<screen name="HelpScreen" position="0,0" size="1280,720" flags="wfNoBorder">
+	<widget source="session.VideoPicture" render="Pig" position="937,15" size="320,180" zPosition="0" backgroundColor="transparent" />
+	<widget source="hidePig" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/video_bg_logo.png" position="937,15" size="320,180" zPosition="4">
+		<convert type="ConditionalShowHide" />
+	</widget>
+	<ePixmap position="928,7" size="342,201" zPosition="5" pixmap="~/liquidblue/images/video_bg.png" backgroundColor="transparent" alphatest="blend" />
+	<eLabel text="Menu" position="20,130" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text=" Help " position="20,180" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text=" Exit " position="20,230" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text="CH+" position="20,280" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text="CH-" position="20,330" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text="Page " position="500,180" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text="Info/EPG" position="500,129" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<eLabel text="Setup" position="150,130" size="200,27" font="mediaportal;24" halign="left" foregroundColor="#00ffffff" transparent="1" backgroundColor="#26181d20" />
+	<eLabel text="FAQ" position="150,180" size="200,27" font="mediaportal;24" halign="left" foregroundColor="#00ffffff" transparent="1" backgroundColor="#26181d20" />
+	<eLabel text="Programm schliessen" position="150,230" size="300,27" font="mediaportal;24" halign="left" foregroundColor="#00ffffff" transparent="1" backgroundColor="#26181d20" />
+	<eLabel text="Seite weiter" position="150,280" size="300,27" font="mediaportal;24" halign="left" foregroundColor="#00ffffff" transparent="1" backgroundColor="#26181d20" />
+	<eLabel text="Seite zurück" position="150,330" size="300,27" font="mediaportal;24" halign="left" foregroundColor="#00ffffff" transparent="1" backgroundColor="#26181d20" />
+	<eLabel text="Seite auswählen" position="640,180" size="260,27" font="mediaportal;24" halign="left" foregroundColor="#00ffffff" transparent="1" backgroundColor="#26181d20" />
+	<eLabel text="Mit der MENÜ Taste könnt ihr im Hauptmenü einstellen welche Plugins angezeigt werden. Default PINCODE  '0000'. Eine Seite blättern mit den beiden 'Bouquet Tasten' ist immer dann möglich wenn 'Page 1' in einem Plugin auftaucht.&#xD;&#xA;Es gibt immer eine goldene Regel bei Streams.&#xD;&#xA;1. Sollte der Stream starten aber das Bild bleibt dunkel, dann bitte ein paar Sekunden länger abwarten&#xD;&#xA;    oder den Stream am PC überprüfen ob dieser dort läuft.&#xD;&#xA;2. Wenn der Stream zwischendurch stockt, merke dir den Zeitpunkt und stoppe den Stream, starte ihn erneut &#xD;&#xA;    und spule zum Zeitpunkt vor (mit der Seekbar funktioniert das bestens).&#xD;&#xA;3. Startet der MediaPlayer gar nicht, dann liegt es wohl am Plugin.&#xD;&#xA;4. Abends sind die Streamserver immer überlastet und man kann mit Bildhängern rechnen!&#xD;&#xA;5. Stockt ein Stream, ist vermutlich der Streamhoster überlastet, der Fehler liegt nicht beim Plugin.&#xD;&#xA;6. Wenn die Inhalte nicht abgespielt werden und der MoviePlayer 'Wiedergabe beenden' anzeigt, &#xD;&#xA;     bitte 'Nein, aber von Anfang an neu beginnen' auswählen." position="20,420" size="850,270" backgroundColor="#26181d20" font="mediaportal; 16" foregroundColor="#00ffffff" transparent="1" />
+	<eLabel text="Update" position="640,130" size="200,27" font="mediaportal;24" halign="left" foregroundColor="#00ffffff" transparent="1" backgroundColor="#26181d20" />
+	<eLabel text="MediaPortal Team                                                http://www.vuplus-support.org" position="20,677" size="900,30" backgroundColor="#26181d20" font="mediaportal; 25" foregroundColor="#00ffffff" transparent="1" />
+	<ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="~/liquidblue/images/helpScreen.png" />
+	<ePixmap position="14,31" size="508,48" zPosition="0" pixmap="~/liquidblue/images/mplogo.png" transparent="1" alphatest="blend" />
+</screen>
